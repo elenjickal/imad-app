@@ -14,7 +14,7 @@ app.get('/article-one', function (req,res) {
 });
 
 app.get('/article-two', function (req,res){
-    res.send('article two served');
+    res.send(' <meta name="viewport" content="width=device-width, initial-scale=1"/>article two served');
 });
 
 app.get('/ui/style.css', function (req, res) {
